@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/img/icon.png">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>G Sathvika</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <!-- &#60;&#62; -->
+        <a href="#home" class="nav-logo"><img src="./assets/img/icon.png" height="70px" alt="H" /></a>
+      </div>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link home active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" onclick="myFunction()"> <img src="./assets/img/sumoon.png" alt="" height="20px" width="20px"
+                style="background-color: transparent;"> </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+        <h2 class="home-title">
+          Hi 👋,<br />I'am <span class="home-title-color">Gundala Sathvika</span><br />
+          <span id="jobTitle">Front-end Developer</span>
+        </h2>
+
+        <a href="https://drive.google.com/file/d/1dLL5yI_xf75ZPZVMzLQczfoYN4WKZLOK/view?usp=sharing" target="_blank"
+          class="button">Resume</a>
+      </div>
+
+      <div class="home-social">
+        <a href="https://www.linkedin.com/in/sathvikagundala78/" target="_blank" class="home-social-icon"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/gsathvikareddy78" target="_blank" class="home-social-icon"><i
+            class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home-img">
+        <img src="assets/img/girlprofile.png" alt="" />
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about-container bd-grid">
+        <div class="about-img">
+          <img src="assets/img/aboutme.gif" alt="" />
+        </div>
+
+        <div style="text-align: center">
+          <h2 class="about-subtitle">I'am Gundala Sathvika</h2>
+          <p class="about-text">
+            Quick learner and an aspiring front-end web developer with core
+            knowledge of front end technologies. Looking forward to applying
+            and enhancing my skills and knowledge as a developer.
+          </p>
+          <br />
+
+          <p>
+            Drop a mail gsathvikareddy78@gmail.com
+            <i style="color: #4070f4; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!---========Education ======--->
+    <section class="education section" id="education">
+      <h2 class="section-title">Education</h2>
+
+      <div class="education-container bd-grid">
+        <div class="education-data">
+          <div class="education-names">
+            <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+            <span class="education-name">B.Tech(CSE)</span>
+            <p class="education-platform ">SIMATS School Of Engineering | SSE</p>
+            <p class="education-duration ">2019-2023 | CGPA:9.055</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-container bd-grid">
+        <div class="education-data">
+          <div class="education-names">
+            <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+            <span class="education-name">Intermediate | MPC</span>
+            <p class="education-platform ">Sri Chaitanya Junior College | State Board</p>
+            <p class="education-duration ">2017-2019 | CGPA: 9.5 </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-container bd-grid">
+        <div class="education-data">
+          <div class="education-names">
+            <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+            <span class="education-name">10th | General</span>
+            <p class="education-platform ">Sri Chaitanya Techno School | State Board</p>
+            <p class="education-duration ">2016-2017 | CGPA: 9.7 </p>
+          </div>
+        </div>
+      </div>
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container bd-grid">
+          <div>
+            <!-- <h2 class="skills-subtitle">Front-end Skills</h2> -->
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-html5 skills-icon"></i>
+                <span class="skills-name">HTML</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-css3 skills-icon"></i>
+                <span class="skills-name">CSS</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="bx bxl-javascript skills-icon"></i>
+                <span class="skills-name">JavaScript</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/bootstrap.jpg" alt="" />
+                <span class="skills-name">Bootstrap</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/react.png" alt="" />
+                <span class="skills-name">React JS</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!-- <h2 class="skills-subtitle">Back-end Skills</h2> -->
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/dsa.png" alt="" />
+                <span class="skills-name">Data Structures and Algorithms</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/github.svg" alt="" />
+                <span class="skills-name">Github</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/c-program.png" alt="" />
+                <span class="skills-name">C Programming</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="./assets/img/python.jpg" alt="" />
+                <span class="skills-name">Python Programming</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===== Projects =====-->
+      <section class="projects section" id="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <!-- project-1 -->
+
+        <div class="project-container">
+          <div class="project-img">
+            <img src="assets/img/winterwear.png" alt="Winter Wear" />
+            <p class="project-title">E-commerce | Winter Wear</p>
+            <p class="project-subtitle">
+              A E-commerce Shopping website landing page create using front end technologies.
+              <br />
+              <br />
+              It is Individual Project build by Me.
+              . <br />
+              <br />HTML | CSS
+            </p>
+            <div class="project-btns">
+              <a href="https://github.com/gsathvikareddy78/E-commerce-winter-wear" target="_blank"
+                class="small-btn button">
+
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://gsathvikareddy78.github.io/E-commerce-winter-wear/" target="_blank"
+                class="small-btn button">
+                Live
+                <i class="bx bx-link-external"></i>
+              </a>
+              </a>
+            </div>
+          </div>
+
+          <!-- project-2 -->
+
+          <div class="project-img">
+            <img src="assets/img/weather.png" alt="Weather Forecast" />
+            <p class="project-title">Weather Forecast</p>
+            <p class="project-subtitle">
+              weather application designed to provide users with real-time weather updates and visually appealing
+              interface.
+              This project aims to create a responsive and interactive front-end application using Weather API <br />
+              <br />
+              Page is Responsive,Its Individual project built by me.
+              <br />
+              <br /> HTML | CSS | Javascript
+            </p>
+            <div class="project-btns">
+              <a href="https://github.com/gsathvikareddy78/weather-forecast" target="_blank" class="small-btn button">
+
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://gsathvikareddy78.github.io/weather-forecast/" target="_blank" class="small-btn button">
+                Live
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- project-3 -->
+
+          <div class="project-img">
+            <img src="assets/img/calculator.png" alt="" />
+            <p class="project-title">Simple calculator</p>
+            <p class="project-subtitle">
+              A Simple calculator using CSS, HTML, and JavaScript. Implemented using an
+              interactive interface with buttons for different operations.
+              <br />
+              <br />
+              Page is Responsive,It is Individual Project build by Me.
+              . <br />
+              <br />HTML | CSS |JavaScript
+            </p>
+            <div class="project-btns">
+              <a href="https://github.com/gsathvikareddy78/Simple-Calculator" target="_blank" class="small-btn button">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://gsathvikareddy78.github.io/Simple-Calculator/" target="_blank" class="small-btn button">
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+
+          <!-- project-4 -->
+
+          <div class="project-img">
+            <img src="assets/img/GSacadamey.png" alt="GS Acadamey" />
+            <p class="project-title">Institute Landing page</p>
+            <p class="project-subtitle">
+              A Simple landing page for Acadamey, created using -HTMLl,CSS,Bootstrap 5
+              <br />
+              <br />
+              Page is Responsive,It is Individual Project build by Me.
+              <br />
+              <br />HTML | CSS | Bootstrap 5
+            </p>
+            <div class="project-btns">
+              <a href="https://github.com/gsathvikareddy78/Institute-Landing-page" target="_blank"
+                class="small-btn button">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://gsathvikareddy78.github.io/Institute-Landing-page/" target="_blank"
+                class="small-btn button">
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- project-5 -->
+
+          <div class="project-img">
+            <img src="assets/img/rock-paper-scissors.png" alt="Rock-Paper-Scissors Game" />
+            <p class="project-title">Rock-Paper-Scissors Game</p>
+            <p class="project-subtitle">
+              A Beginner friendly game and created using Html,Css,JavaScript.This is mini project.
+              <br />
+              <br />
+              Page is Responsive,Its Individual project built by me.
+              <br />
+              <br />
+              HTML | CSS |JavaScript
+            </p>
+            <div class="project-btns">
+              <a href="https://github.com/gsathvikareddy78/Rock-Paper-Scissors-Game" target="_blank"
+                class="small-btn button">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://gsathvikareddy78.github.io/Rock-Paper-Scissors-Game/" target="_blank"
+                class="small-btn button">
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- project-6 -->
+
+          <div class="project-img">
+            <img src="assets/img/guess-my-number.png" alt="Guess My Number Game" />
+            <p class="project-title">Guess My Number Game</p>
+            <p class="project-subtitle">
+              A Beginner friendly game and created using Html,Css,JavaScript.This is mini project.
+              <br />
+              <br />
+              Page is Responsive,Its Individual project built by me.
+              <br />
+              <br />
+              HTML | CSS |JavaScript
+            </p>
+            <div class="project-btns">
+              <a href="https://github.com/gsathvikareddy78/Guess-My-Number-Game" target="_blank"
+                class="small-btn button">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://gsathvikareddy78.github.io/Guess-My-Number-Game/" target="_blank"
+                class="small-btn button">
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- project-7 -->
+
+          <div class="project-img">
+            <img src="assets/img/to-do list .png" alt="" />
+            <p class="project-title">To-Do List Using React JS</p>
+            <p class="project-subtitle">
+              A Basic to-do app that enables a user to add daily tasks. User can mark a task "complete" upon its
+              successful completion and every task has delete button user can delete the if task got completed.
+              <br />
+              <br />
+              Its Individual project built by me.
+              <br />
+              <br />
+              STATE MANAGEMENT | CSS | REACT JS
+            </p>
+            <div class="project-btns">
+              <a href="https://github.com/gsathvikareddy78/To-do-App" target="_blank" class="small-btn button">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://gsathvikareddy78.github.io/To-Do-App/" target="_blank" class="small-btn button">
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- project-8 -->
+
+          <div class="project-img">
+            <img src="assets/img/imdbclone.jpg" alt="Personal Portfolio" />
+            <p class="project-title">React based Film Vault Application</p>
+            <p class="project-subtitle">
+              Developed a dynamic IMDB Clone using React JS, allowing users to search, rate, and manage movie collections using watchlist feature.
+              <br />
+              <br />
+              Its Individual project built by me.
+              <br />
+              <br />
+              API | React JS | RWD
+            </p>
+            <div class="project-btns">
+              <a href="https://github.com/gsathvikareddy78/IMDB-Clone" target="_blank" class="small-btn button">
+                <i class="bx bxl-github"></i>
+              </a>
+              <a href="https://gsathvikareddy78.github.io/IMDB-Clone/" target="_blank" class="small-btn button">
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+  </main>
+
+  <!--===== FOOTER + CONTACT=====-->
+
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="footer-title">Gundala Sathvika</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/sathvikagundala78/" target="_blank" class="footer-icon"><i
+          class="bx bxl-linkedin">
+          <br />
+          LinkedIn</i></a>
+      <!-- <a href="https://twitter.com/Tushars2526" target="_blank" class="footer-icon"><i class="bx bxl-twitter">
+          <br />
+          Twitter</i></a> -->
+      <a href="mailto:gsathvikareddy63@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send">
+          <br />
+          E-mail</i></a>
+      <!-- <a href="tel:+91 8839819475" target="_blank" class="footer-icon"><i class="bx bx-phone">
+          <br />
+          Phone</i></a> -->
+      <a href="https://github.com/gsathvikareddy78" target="_blank" class="footer-icon"><i class="bx bxl-github">
+          <br />
+          GitHub
+        </i></a>
+    </div>
+    <p>&#169; 2024 copyright all right reserved</p>
+    <p>Developed and designed by G Sathvika</p>
+  </footer>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
